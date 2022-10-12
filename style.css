@@ -1,0 +1,73 @@
+#top .social-media span a img {
+  margin-left: 7px;
+}
+#top .social-media span a img:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+/* navbar code start */
+#navbar .container-fluid #abc {
+  margin-top: 100px;
+}
+#navbar .collapse {
+  background-color: gray;
+  margin-top: 0px;
+}
+#navbar .collapse li {
+  color: black;
+}
+#navbar .collapse li a {
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 10px;
+}
+#navbar .collapse li a i {
+  color: white;
+  font-size: 22px;
+}
+#navbar ul li :hover {
+  color: black;
+  background-color: greenyellow;
+  border-radius: 20px;
+}
+
+/* navbar code end */
+/* table-image code start */
+#table-image .image img {
+  box-shadow: 10px 10px 15px 5px black;
+  cursor: pointer;
+}
+#table-image .image img:hover {
+  transform: scale(1.05);
+  transition: 1s;
+  border: 2px solid black;
+}
+
+/* table-image code End */
+/* footer code start */
+#footer h1 {
+  font-size: 50px;
+}
+#footer .row ul li {
+  list-style: none;
+}
+#footer .row ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+/* footer code end */
+/* Service code Start */
+#service .row .card {
+  box-shadow: 10px 10px 10px black;
+}
+#service .row .card:hover {
+  transform: scale(1.02);
+  transition: 1s;
+}
+
+/* Service code end *//*# sourceMappingURL=style.css.map */

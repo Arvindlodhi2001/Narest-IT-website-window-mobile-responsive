@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <!-- jquary link-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <!-- jquary link-->
+</head>
+<body>
+
+ 
+<!-- top section code End-->
+
+<section id="top">
+
+    <div class="container-fluid fixed-top  ">
+      <div class="row bg-dark text-white">
+        <div class="col-md-6 ">
+          <!-- <img src="images/nareshit-logohd.png" class="  img-fluid d-flex align-items-right bg-dark" alt=""> -->
+          <h1 class=" inline-block mt-4 text-lg-start text-center ">Naresh IT</h1>
+        </div>
+        <div class="col-md-6  d-flex justify-content-lg-end justify-content-center">
+          
+          <div class="social-media pb-3 ">
+            <h5 class="d-flex inline-block mt-2">FOLLOW US SOCIAL MEDIA :</h5>
+            <span><a href="https://www.instagram.com/accounts/login/"><img src="images/insta.png" height="45px" alt=""></a></span>
+            <span><a href="https://www.facebook.com/accounts/login/"><img src="images/facebook.png" height="40px" alt=""></a></span>
+            <span><a href="https://www.linkedin.com/"><img src="images/linkedin-logo-png-2026.png" height="35px" alt=""></a></span>
+            <span><a href="https://twitter.com/i/flow/login"><img src="images/twitter.png" height="35px" alt=""></a></span>
+            <span><a href="https://web.whatsapp.com/"><img src="images/whatapp.png" height="40px" alt=""></a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </section>
+  
+  <!-- top section code End-->
+  
+  
+  <!-- Navbar code start-->
+  
+  <section id="navbar">
+  
+    <div class="container-fluid  fixed-top mt-5">
+  
+      
+  <nav class="navbar navbar-expand-lg mt-5  bg-light">
+    <div class="container-fluid">
+      
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link bi bi-house-fill" aria-current="page" href="index.html"> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bi bi-question-circle-fill " href="about.html">  About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bi bi-question-circle-fill" href="service.html">  Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bi bi-phone " href="contactUS.html"> Contact us</a>
+          </li>
+         
+  
+        </ul>
+        
+        <div class="me-5 mt-3">
+          <ul class="list-unstyled me-5">
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle bi bi-box-arrow-in-right" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sign In
+            </a>
+            <ul class="dropdown-menu me-5 bg-dark">
+              <li><a class="dropdown-item" href="#" data-bs-target="#SignIn" data-bs-toggle="modal">Sign In</a></li>
+              <li><a class="dropdown-item" href="#" data-bs-target="#SignUp" data-bs-toggle="modal">Sign Up</a></li>
+              <li><a class="dropdown-item" href="#">Forget Password</a></li>
+            </ul>
+          </li>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  
+    </div>
+  
+  </section>
+
+  <!-- Navbar code End-->
+  
+  
+  <!-- signe in code start -->
+  
+  <div class="modal fade" id="SignIn">
+  
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <div class="modal-header">
+          <h1 class="bi bi-box-arrow-in-right"> User Sign In</h1>
+          <button class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <dl>
+            <dt>User id  and email address <font color="red">*</font></dt>
+            <dd class="input-group">
+              <button class="btn btn-danger"><i class="bi bi-person-fill"></i></button>
+              <input type="email" class="form-control fw-bold text-body " required placeholder="User id  and email address">
+              <button class="btn btn-success"><i class="bi bi-star-fill"></i></button>
+            </dd>
+  
+            <dt>Password <font color="red">*</font></dt>
+            <dd class="input-group">
+              <button class="btn btn-danger"><i class="bi bi-lock-fill"></i></button>
+              <input type="password" class="form-control fw-bold text-body " required placeholder="password">
+              <button class="btn btn-success"><i class="bi bi-star-fill"></i></button>
+            </dd>
+              <dt><a href="#">Forget password ?</a></dt>
+             <dt><a href="#" data-bs-target="#SignUp" data-bs-toggle="modal" >Create New Account ?
+  
+              </a></dt>
+          </dl>
+        </div>
+  
+        <div class="modal-footer">
+          <button class="btn btn-primary" type="button">Sign In</button>
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+        </div>
+  
+      </div>
+    </div>
+  
+  </div>
+  
+  
+  <!-- signe in code End -->
+  
+  
+  <!-- signup in code start -->
+  
+  <div class="modal fade" id="SignUp">
+  
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <div class="modal-header">
+          <h1 class="bi bi-box-arrow-in-right"> Create Account</h1>
+          <button class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <dl>
+            <dt>Use Name <font color="red">*</font></dt>
+            <dd class="input-group">
+              <button class="btn btn-success"><i class="bi bi-person-fill"></i></button>
+              <input type="text" class="form-control fw-bold text-body " required placeholder="User id  and email address">
+              
+            </dd>
+  
+            <dt>Mobile Number <font color="red">*</font></dt>
+            <dd class="input-group">
+              <button class="btn btn-success"><i class="bi bi-phone-fill"></i></button>
+              <input type="text" class="form-control fw-bold text-body " required placeholder="Mobile Number">
+              
+            </dd>
+  
+            <dt>Email <font color="red">*</font></dt>
+            <dd class="input-group">
+              <button class="btn btn-success"><i class="bi bi-envelope-fill"></i></button>
+              <input type="email" class="form-control fw-bold text-body " required placeholder="Email address">
+              
+            </dd>
+  
+            <dt> Create Password <font color="red">*</font></dt>
+            <dd class="input-group">
+              <button class="btn btn-success"><i class="bi bi-lock-fill"></i></button>
+              <input type="password" class="form-control fw-bold text-body " required placeholder="Create Password">
+              
+            </dd>
+  
+            <dt> Re-enter Password <font color="red">*</font></dt>
+            <dd class="input-group">
+              <button class="btn btn-success"><i class="bi bi-lock-fill"></i></button>
+              <input type="password" class="form-control fw-bold text-body " required placeholder="Re-enter Password">
+              
+            </dd>
+  
+            <dt> Date of Birth <font color="red">*</font></dt>
+            <dd class="input-group">
+              <button class="btn btn-success"><i class="bi bi-calendar-month-fill"></i></button>
+              <input type="date" class="form-control fw-bold text-body " required placeholder="DOB">
+              
+            </dd>
+  
+            <dt> Gender <font color="red">*</font></dt>
+            <dd class="">
+             
+               Male  <input type="radio">
+               Fe-male  <input type="radio">
+               Other  <input type="radio">
+              
+            </dd>
+  
+            <br><br>
+              <dt><a href="#" data-bs-target="#SignIn" data-bs-toggle="modal" >Already account ?</a></dt>
+          </dl>
+        </div>
+  
+        <div class="modal-footer">
+          <button class="btn btn-primary" type="button">Sign In</button>
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+        </div>
+  
+      </div>
+    </div>
+  
+  </div>
+  
+  
+  <!-- sigup in code End -->
+  
+  
+  
+  
+  <br><br>
+  
+
+
+<!--SERVICES code start-->
+
+<section id="service">
+
+    <div class="container-fluid text-center" style="margin-top:150px ;">
+      <h1>SERVICES</h1>
+      <div class="row p-5">
+        <div class="col-md-4">
+  
+          <div class="card p-2 mb-4">
+            <div class="card-header">
+              <img src="images/php.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="card-body">
+              <h5>WEB DESIGN !!</h5>
+              <p class="mt-3 text-center">
+                Online ordering system helps to maintain a Better Business Relationship with your customers, which is a key factor to run any successful business.
+              </p>
+            </div>
+          </div>
+  
+        </div>
+  
+        <div class="col-md-4">
+  
+          <div class="card  mb-4">
+            <div class="card-header">
+              <img src="images/Itservice.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="card-body">
+              <h5>IT SERVICES !!</h5>
+              <p class="mt-3 text-center p-3">
+                We are ideally located in Larbert meaning we can offer IT support to businesses throughout Scotland. We take the hassle and worry out of your IT system by providing preventative and proactive IT support.
+              </p>
+            </div>
+          </div>
+  
+        </div>
+  
+        <div class="col-md-4">
+  
+          <div class="card p-2">
+            <div class="card-header">
+              <img src="images/webmarketing.png" class="img-fluid" alt="">
+            </div>
+            <div class="card-body">
+              
+              <h5>WEB MARKETING !!</h5>
+              <p class="mt-3 text-center">
+                We are passionate about digital content creation, strategy and delivery. We deliver results by designing marketing strategies which improve our clients brand visibility.
+              </p>
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+    </div>
+  
+  </section>
+  
+  
+  <!--SERVICES code End-->
+  
+  
+
+     
+<!-- Footer code start-->
+
+<section id="footer">
+
+    <div class="container-fluid text-white text-center  bg-black">
+      <h1 class="text-center  mt-4">Naresh Technologies</h1>
+      <div class="row  ">
+        <div class="col-md-2 text-white mt-5">
+          <ul>
+            <li> <a href="#"> Facebook</a> </li>
+            <li> <a href="#"> Google</a> </li>
+            <li> <a href="#"> Twitter</a> </li>
+            <li> <a href="#"> Youtube</a> </li>
+            
+          </ul>
+        </div>
+  
+        <div class="col-md-3 text-white mt-5 ">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+           
+          </ul>
+        </div>
+  
+        <div class="col-md-3 mt-5   ">
+          <ul class=" ">
+            <li><a href="#"> Name : Naresh Istitute</a></li>
+            <li><a href="#">Email : info@nareshit.com</a></li>
+            <li><a href="#">Contact : +91-xxxxxxxxxx</a></li>
+            <li><a href="#">Address : Sr nagar, Hyderabad, Telangana, India</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 mt-2 mb-1  ">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d60904.275415674056!2d78.46360895572508!3d17.434941832327336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1665560898931!5m2!1sen!2sin" width="100%" height="100%"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class=""></iframe>
+        </div>
+
+       
+
+      </div>
+    </div>
+  
+  </section>
+  <div class="mt-2 ">
+    <h2 class="text-center" style="color: greenyellow; background-color: #fa0000;">@copy right Create By Arvind Lodhi   +91-9827805086</h2>
+  </div>
+  
+  
+  
+  <!-- Footer code Endt-->
+  
+
+
+         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+</body>
+</html>
